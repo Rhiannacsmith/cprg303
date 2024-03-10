@@ -14,15 +14,6 @@ export default function ToDoForm({addTask}) {
 
   const [taskText, setTaskText] = React.useState('');
 
-  // const handleChangeText = (text) => {
-  //   setTaskText(text);
-  // }
-
-  // const handlePress = () => {
-  //   addTask(task);
-  //   setTaskText('');
-  // }
-
   return( 
   <>
 <View style={styles.form}>
