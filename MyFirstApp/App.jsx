@@ -15,10 +15,14 @@ import ToDoForm from './components/ToDoForm';
     'Go to gym',
       'Walk dog',
   ]);
+
+  const addTask = (task) => {
+    setTasks([...tasks, task]);
+  }
   return (
     <SafeAreaView>
       <ToDoList tasks={tasks} />
-      <ToDoForm />
+      <ToDoForm addTask={addTask} />
     </SafeAreaView>
   );
 }
