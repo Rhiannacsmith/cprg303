@@ -29,7 +29,6 @@ export default function ToDoForm({addTask}) {
 </>
   );
 }
-
 const styles = StyleSheet.create({
     form: {
       flexDirection: 'row',
@@ -46,4 +45,5 @@ const styles = StyleSheet.create({
       paddingVertical: 5,
       marginRight: 10,
     },
+
   });
